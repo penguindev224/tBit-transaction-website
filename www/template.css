@@ -1,0 +1,66 @@
+.navbar {
+  overflow: hidden;
+  background-color: darkred;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+   
+}
+
+li {
+    float:  left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightgrey;
+}
+
+body {
+	background-color: #eff2f2;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+iframe {
+	border : 0px;
+}
+
+table {
+	border-spacing: 10px;
+}
+
+footer {
+  position: fixed
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: darkred;
+  background-size: 95% 100%;
+  text-align: right;
+  color: white;
+}

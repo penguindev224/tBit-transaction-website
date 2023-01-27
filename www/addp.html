@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<title>EIE3117</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel = "stylesheet" href= "template.css" type="text/css" />
+		<link rel = "stylesheet" href= "navbar.css" type="text/css" />
+	</head>
+	
+    <body>
+      <div class="navbar">
+      <a href="view.php">View</a>
+      <a href="addp.html">Add</a>
+      <a href="editp.html">Edit</a>
+      <a href="deletep.html">Delete</a>
+      <a href="logout.php">Logout</a>
+      </div>
+    
+		<div class="main">
+			<form method = "post" action = "add.php">
+				<br>
+				Dish name:<br>
+				<input type="text" name="DishName" required> 
+				<br><br>
+				Description:<br>
+				<input type="text" value="" name="Description" required> 
+				<br> <br>
+				Unit Price:<br>
+				<input type="text" name="Price" required> 
+				<br><br>
+                                Restaurant ID:<br>
+				<input type="number" name="RestaurantID" required> 
+				<br><br>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</body>
+
+	<footer> 
+		<a href = "ContactUs.html">Contact Us</a>
+		<a href = "Terms.html">Terms Of Website </a>
+	</footer>
+</html>

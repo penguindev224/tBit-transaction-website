@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+	<head>
+		<title>EIE3117</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel = "stylesheet" href= "template.css" type="text/css" />
+		<link rel = "stylesheet" href= "navbar.css" type="text/css" />
+	</head>
+
+  <div class="navbar">
+      <a href="restaurant.php">Restaurant</a>
+      <a href="status.php">Status</a>
+      <a href="login.html">Login</a>
+      <a href="logout.php">Logout</a>
+    <a href="search.php">
+      <span class="glyphicon glyphicon-search"></span>
+    </a>
+  </div>
+    
+		<div class="main">
+			<form method = "post" action = "registered.php">
+				<br>
+				User name:<br>
+				<input type="text" name="UserName" required> 
+				<br><br>
+				Password:<br>
+				<input type="password" value="" name="PW" required> 
+				<br> <br>
+                                Full name:<br>
+				<input type="text" value="" name="FName" required> 
+				<br> <br>
+				Phone:<br>
+				<input type="text" name="Phone" required> 
+				<br><br>
+				Email Address:<br>
+				<input type="email" name="Email" required> 
+				<br><br>   
+				Delivery Address:<br>
+				<input type="text" name="Address" required> 
+				<br><br> 
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</body>
+
+</html>
